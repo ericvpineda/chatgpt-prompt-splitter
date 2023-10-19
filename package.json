@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-prompt-splitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split prompts used for chatgpt.",
   "main": "index.js",
   "scripts": {
