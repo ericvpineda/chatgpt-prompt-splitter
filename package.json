@@ -1,10 +1,10 @@
 {
   "name": "chatgpt-prompt-splitter",
   "version": "1.0.0",
-  "description": "Split chatgpt prompts upto 20,000 characters.",
+  "description": "Split prompts used for chatgpt.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ericvpineda/chatgpt-prompt-splitter/issues"
   },
-  "homepage": "https://github.com/ericvpineda/chatgpt-prompt-splitter#readme"
+  "homepage": "https://github.com/ericvpineda/chatgpt-prompt-splitter#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
