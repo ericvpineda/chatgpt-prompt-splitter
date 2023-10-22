@@ -41,7 +41,7 @@ function promptSplitter(options) {
 4. **Example**:
 
 ```javascript
-const { promptSplitter } = require('./promptSplitter');
+import promptSplitter from 'chatgpt-prompt-splitter';
 
 const options = {
   prompt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",

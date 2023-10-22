@@ -2,9 +2,8 @@
   "name": "chatgpt-prompt-splitter",
   "version": "1.0.1",
   "description": "Split prompts used for chatgpt.",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,10 @@
   "homepage": "https://github.com/ericvpineda/chatgpt-prompt-splitter#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "exports": "./index.js",
+  "type": "module",
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }

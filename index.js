@@ -4,7 +4,7 @@
    - splitLength: positive integer value that dictates character length of string to split
    - newLine: boolean that appends newline characters. Helpful when printing prompt chunks. 
 */
-function promptSplitter({ prompt, splitLength, newLine=false }) {
+export default function promptSplitter({ prompt, splitLength, newLine=false }) {
 
   // Parameter validation
   if (typeof splitLength != "number") {
@@ -44,5 +44,3 @@ function promptSplitter({ prompt, splitLength, newLine=false }) {
 
   return result;
 }
-
-module.exports = { promptSplitter };

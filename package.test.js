@@ -1,5 +1,5 @@
-const {promptSplitter} =  require('./index.js')
-const fs = require("fs");
+import promptSplitter from './index.js'
+import * as fs from 'fs';
 
 const testFile = fs
   .readFileSync("./utils/berkeley-transcription.txt")
