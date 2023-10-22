@@ -66,8 +66,13 @@ This content will be part 1 out of 2.
 Then you will answer: "Received part 1/2"
 Note: When I tell you "ALL PARTS SENT", then you can process all messages and answer my requests.
 
+[START PART 1/2]
+consectetur adipiscing...
+[END PART 1/2]
+Reply with "Received part 1/2". Remember, do not reply anything else yet and wait for next part.
+
 [START PART 2/2]
-consectetur adipiscing elit...
+elit, sed do eiusmod tempor incididunt ut labore...
 [END PART 2/2]
-ALL PARTS SENT. You may now continue processing requests
+ALL PARTS SENT. You may now continue processing requests.
 ```
