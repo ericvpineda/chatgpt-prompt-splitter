@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-prompt-splitter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Split prompts used for chatgpt.",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
