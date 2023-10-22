@@ -2,7 +2,7 @@
 
 ## Overview
 
-This module provides a function, `promptSplitter`, which breaks down a given text prompt into smaller chunks for more manageable processing or communication. It is useful when dealing with text that exceeds a certain character length.
+This ESM module provides a function, `promptSplitter`, which breaks down a given text prompt into smaller chunks for more manageable processing or communication. It is useful when dealing with text that exceeds a certain character length.
 
 ## Function Signature
 
@@ -13,7 +13,7 @@ This module provides a function, `promptSplitter`, which breaks down a given tex
  * @param {Object} options - An object containing the following parameters:
  *   - prompt: A non-empty string.
  *   - splitLength: A positive integer value that dictates the character length of each string chunk.
- *   - newLine: A boolean that, when true, appends newline characters. Helpful when printing prompt chunks.
+ *   - newLine: A boolean that, when true, appends newline characters. Helpful when debugging.
  * 
  * @throws {TypeError} if parameters are not of the expected types.
  * @throws {Error} if prompt is empty or splitLength is not a positive integer.
